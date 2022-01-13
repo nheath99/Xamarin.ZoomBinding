@@ -18,7 +18,8 @@ namespace Com.Zipow.Videobox.Fragment
         {
             public int Compare(Java.Lang.Object lhs, Java.Lang.Object rhs)
             {
-                return Compare((Com.Zipow.Videobox.Fragment.SelectCountryCodeFragment.CountryCodeItem)lhs, (Com.Zipow.Videobox.Fragment.SelectCountryCodeFragment.CountryCodeItem)rhs);
+                throw new NotImplementedException();
+                //return Compare((Com.Zipow.Videobox.Fragment.SelectCountryCodeFragment.CountryCodeItem)lhs, (Com.Zipow.Videobox.Fragment.SelectCountryCodeFragment.CountryCodeItem)rhs);
             }
         }
     }
@@ -42,7 +43,8 @@ namespace Com.Zipow.Videobox.Fragment
         {
             public int Compare(Java.Lang.Object lhs, Java.Lang.Object rhs)
             {
-                return Compare((Com.Zipow.Videobox.Fragment.SelectCountryCodeFragment.CountryCodeItem)lhs, (Com.Zipow.Videobox.Fragment.SelectCountryCodeFragment.CountryCodeItem)rhs);
+                throw new NotImplementedException();
+                //return Compare((Com.Zipow.Videobox.Fragment.SelectCountryCodeFragment.CountryCodeItem)lhs, (Com.Zipow.Videobox.Fragment.SelectCountryCodeFragment.CountryCodeItem)rhs);
             }
         }
     }
@@ -53,7 +55,8 @@ namespace Com.Zipow.Videobox.Fragment
         {
             public int Compare(Java.Lang.Object lhs, Java.Lang.Object rhs)
             {
-                return Compare((Com.Zipow.Videobox.Fragment.SelectCallInCountryFragment.CallInNumberItem)lhs, (Com.Zipow.Videobox.Fragment.SelectCallInCountryFragment.CallInNumberItem)rhs);
+                throw new NotImplementedException();
+                //return Compare((Com.Zipow.Videobox.Fragment.SelectCallInCountryFragment.CallInNumberItem)lhs, (Com.Zipow.Videobox.Fragment.SelectCallInCountryFragment.CallInNumberItem)rhs);
             }
         }
     }

@@ -1,23 +1,25 @@
 ﻿using System;
 using Java.Interop;
 
-namespace Com.Zipow.Videobox.View.MM
+namespace Com.Zipow.Videobox.Util
 {
     public partial class MMBuddyItemComparator
     {
-        //public int Compare(Java.Lang.Object lhs, Java.Lang.Object rhs)
-        //{
-        //    return Compare((Com.Zipow.Videobox.View.MM.MMBuddyItem)lhs, (Com.Zipow.Videobox.View.MM.MMBuddyItem)rhs);
-        //}
+        public int Compare(Java.Lang.Object? lhs, Java.Lang.Object? rhs)
+        {
+            throw new NotImplementedException();
+            //return Compare((Com.Zipow.Videobox.View.MM.MMBuddyItem)lhs, (Com.Zipow.Videobox.View.MM.MMBuddyItem)rhs);
+        }
     }
 
 
     public partial class IMAddrBookItemComparator
     {
-        //public int Compare(Java.Lang.Object lhs, Java.Lang.Object rhs)
-        //{
-        //    return Compare((Com.Zipow.Videobox.View.IMAddrBookItem)lhs, (Com.Zipow.Videobox.View.IMAddrBookItem)rhs);
-        //}
+        public int Compare(Java.Lang.Object lhs, Java.Lang.Object rhs)
+        {
+            throw new NotImplementedException();
+            //    return Compare((Com.Zipow.Videobox.View.IMAddrBookItem)lhs, (Com.Zipow.Videobox.View.IMAddrBookItem)rhs);
+        }
     }
 
 

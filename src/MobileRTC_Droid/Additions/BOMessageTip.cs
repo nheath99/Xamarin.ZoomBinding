@@ -8,7 +8,8 @@ namespace Com.Zipow.Videobox.Confapp.BO
         {
             public int Compare(Java.Lang.Object lhs, Java.Lang.Object rhs)
             {
-                return Compare((Com.Zipow.Videobox.Confapp.BO.BOMessageTip)lhs, (Com.Zipow.Videobox.Confapp.BO.BOMessageTip)rhs);
+                throw new NotImplementedException();
+                //return Compare((Com.Zipow.Videobox.Confapp.BO.BOMessageTip)lhs, (Com.Zipow.Videobox.Confapp.BO.BOMessageTip)rhs);
             }
         }
     }

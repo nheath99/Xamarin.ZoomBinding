@@ -11,13 +11,14 @@ namespace Com.Zipow.Videobox.Util
     //    }
     //}
 
-    //public partial class PListItemNewComparator
-    //{
-    //    public int Compare(Java.Lang.Object lhs, Java.Lang.Object rhs)
-    //    {
-    //        return Compare((Com.Zipow.Videobox.View.PListItem)lhs, (Com.Zipow.Videobox.View.PListItem)rhs);
-    //    }
-    //}
+    public partial class PListItemNewComparator
+    {
+        public int Compare(Java.Lang.Object? lhs, Java.Lang.Object? rhs)
+        {
+            throw new NotImplementedException();
+            //return Compare((Com.Zipow.Videobox.View.PListItem)lhs, (Com.Zipow.Videobox.View.PListItem)rhs);
+        }
+    }
 
 
     //public partial class PAttendeeItemComparator
