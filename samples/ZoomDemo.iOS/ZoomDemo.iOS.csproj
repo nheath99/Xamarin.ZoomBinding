@@ -142,8 +142,10 @@
     <ProjectReference Include="..\..\src\MobileRTC_iOS\MobileRTC_iOS.csproj">
       <Project>{CA661E6B-BCDF-4EC2-8E6C-045702BD2EA0}</Project>
       <Name>MobileRTC_iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
     </ProjectReference>
-   <!-- <ProjectReference Include="..\ZoomDemoScreenShare\ZoomDemoScreenShare.csproj">
+    <!-- <ProjectReference Include="..\ZoomDemoScreenShare\ZoomDemoScreenShare.csproj">
       <IsAppExtension>true</IsAppExtension>
       <Project>{0EADC8B6-D2ED-4178-A026-704B725377A6}</Project>
       <Name>ZoomDemoScreenShare</Name>
@@ -154,9 +156,7 @@
       <Name>ZoomDemoScreenShareUI</Name>
     </ProjectReference>-->
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Platform\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\NuGet.Build.Packaging.0.2.5-dev.8\build\NuGet.Build.Packaging.targets" Condition="Exists('..\packages\NuGet.Build.Packaging.0.2.5-dev.8\build\NuGet.Build.Packaging.targets')" />
 </Project>
